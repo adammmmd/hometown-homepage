@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.head {
+    height: 343px;
+    background-image: url("assets/download.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.text-head {
+    color: #ffffff;
+    text-shadow: 0px 0px 2px black;
+    text-align: center;
+    display: block;
+}
+
+#title-head {
+    background: #1D3557;
+    padding: 5px 10px;
+    border-radius: 5px;
+    width: 225px;
+}
+
+#text-head {
+    background: #457B9D;
+    padding: 5px 10px;
+    border-radius: 5px;
+    width: 412px;
+}
+
+main {
+    margin: 0;
+    padding: 50px 30px;
+    height:fit-content;
+    background: #F1FAEE;
+}
+
+.main-text {
+    margin: auto;
+    text-align: center;
+    display: block;
+    color: #1D3557;
+}
+
+.list-activity {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.activities {
+    margin: auto;
+}
+
+.activity-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.activity-title {
+    width: 250px;
+}
+
+.activity {
+    width: 300px;
+}
+
+footer {
+    height: 394px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-name {
+    width: fit-content;
+    background: #A8DADC;
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 50px;
+    border-radius: 10px;
+    border-bottom: 7px solid #1D3557;
+}
+
+.profile-img {
+    width: 180px;
+    border-radius: 50%;
+}
+
+.bio {
+    width: 300px;
+}
